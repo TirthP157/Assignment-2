@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzaOrderForm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/download (1).jpeg" alt="img">
+        <h1>Pizzini Pizza</h1>
+        
+    </header>
+    <main>
+        <section>
+            <h2>Order Your Pizza</h2>
+            
+            <form id="pizzaOrderForm">
+                 <!-- Input for number of pizzas -->
+                 <label for="numberOfPizzas">How many pizzas would you like?</label>
+                 <input type="number" id="numberOfPizzas" name="numberOfPizzas" min="1" required>
+ 
+                
+
+                <!-- Input for pizza size -->
+                 
+                <label>Choose your pizza size:</label>
+                <input type="radio" id="small" name="size" value="Small" required>
+                <label for="small">Small</label>
+                <input type="radio" id="medium" name="size" value="Medium">
+                <label for="medium">Medium</label>
+                <input type="radio" id="large" name="size" value="Large">
+                <label for="large">Large</label>
+                <img src="images/download (3).jpeg" alt="img">
+
+                <!-- Input for toppings -->
+                <fieldset>
+                    <img src="C:\Users\tirth\Downloads\download (4).jpeg" alt="img">
+                    <legend>Select your toppings:</legend>
+                    <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                    <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+                    <label for="mushrooms">Mushrooms</label>
+                    <input type="checkbox" id="onions" name="toppings" value="Onions">
+                    <label for="onions">Onions</label>
+                    <img src="images/veggie-pizza-for-one-2-1024x1024.jpg" alt="img" width="500px">
+                   
+                </fieldset><!-- Input for customer email -->
+                <label for="customerEmail">Your Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required>
+
+                <!-- Submit button -->
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+
+        <!-- Confirmation section -->
+        <section id="confirmation" style="display:none;">
+            <h2>Order Confirmation</h2>
+            <p id="orderDetails"></p>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+        
+</body>
+</html>
+

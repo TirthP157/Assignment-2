@@ -1,0 +1,68 @@
+ /* Basic reset for margin and padding  */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+ /* Body styling  */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styling  */
+header {
+    background: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main section styling  */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ /* Form styling  */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input styling  */
+input[type="number"],
+input[type="email"],
+button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ /* Button styling  */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Footer styling  */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
